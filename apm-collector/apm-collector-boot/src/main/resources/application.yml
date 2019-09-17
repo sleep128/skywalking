@@ -70,8 +70,8 @@ ui:
     contextPath: /
 storage:
   elasticsearch:
-    clusterName: CollectorDBCluster
-    clusterTransportSniffer: true
+    clusterName: elasticsearch
+    clusterTransportSniffer: false
     clusterNodes: localhost:9300
     indexShardsNumber: 2
     indexReplicasNumber: 0

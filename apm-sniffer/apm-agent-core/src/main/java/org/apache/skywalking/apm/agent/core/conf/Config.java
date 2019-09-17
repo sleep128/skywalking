@@ -69,7 +69,7 @@ public class Config {
          * If true, skywalking agent will save all instrumented classes files in `/debugging` folder.
          * Skywalking team may ask for these files in order to resolve compatible problem.
          */
-        public static boolean IS_OPEN_DEBUGGING_CLASS = false;
+        public static boolean IS_OPEN_DEBUGGING_CLASS = true;
     }
 
     public static class Collector {
