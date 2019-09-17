@@ -27,6 +27,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableZuulProxy
 public class ApplicationStartUp extends SpringBootServletInitializer {
 
+    //start
     public static void main(String[] args) {
         SpringApplication.run(ApplicationStartUp.class, args);
     }
